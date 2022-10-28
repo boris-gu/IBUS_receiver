@@ -10,8 +10,11 @@ bool increase;
 
 void setup()
 {
-  Serial2.begin(115200);
-  rcvr.begin(&Serial2);
+  Serial.begin(115200);
+  while (!Serial)
+  {
+  }
+  rcvr.begin(&Serial);
   val = 1000;
   increase = true;
 }
