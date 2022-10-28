@@ -1,3 +1,9 @@
+/*
+ * ChangeChannels
+ *
+ * Changes value of the first 6 IBUS channels from 1000 to 2000
+ */
+
 #include <IBUS_receiver.h>
 
 const int size_ch = 6;
