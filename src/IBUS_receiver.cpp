@@ -8,7 +8,7 @@ IBUS_receiver::IBUS_receiver()
   _header2 = 0x40;
   for (int i = 0; i < TOTAL_CH; i++)
   {
-    _channels[i] = 1234;
+    _channels[i] = 1000;
   }
 }
 

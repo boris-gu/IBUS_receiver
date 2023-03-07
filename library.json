@@ -1,0 +1,18 @@
+{
+  "name": "IBUS receiver",
+  "version": "2.0.0",
+  "description": "Arduino Library for transfer of IBUS packages. This library allows you to transfer the IBUS signal from microcontroller to flight controller. Thus, microcontroller simulates operation of a RC receiver",
+  "keywords": "ibus, communication",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boris-gu/IBUS_receiver"
+  },
+  "authors": {
+    "name": "Boris Gubanov",
+    "url": "https://github.com/boris-gu",
+    "maintainer": true
+  },
+  "license": "BSD-2-Clause",
+  "frameworks": "adruino",
+  "platforms": "*"
+}
